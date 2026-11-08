@@ -38,3 +38,6 @@ All LLM calls are cached on disk, so a disconnected Colab session resumes where 
 git init && git add . && git commit -m "Drift-aware few-shot SMS spam" 
 git branch -M main && git remote add origin https://github.com/<user>/<repo>.git && git push -u origin main
 ```
+results/reproduction = base-paper reproduction
+results/scenario_F = drift towards easier spam
+results/scenario_R = drift towards harder spam
