@@ -1,0 +1,15 @@
+{
+  "backend": "hf",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "no_4bit": false,
+  "batch_size": 8,
+  "uci_path": null,
+  "n_test": 821,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "out": "results/reproduction",
+  "n_unique_msgs": 5160
+}

@@ -1,0 +1,29 @@
+{
+  "mode": "simulated",
+  "backend": "hf",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "no_4bit": false,
+  "batch_size": 16,
+  "uci_path": null,
+  "real_csv": null,
+  "ads": "exclude",
+  "period_months": 3,
+  "periods": 6,
+  "k": 10,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "intervals": [
+    1,
+    4
+  ],
+  "z": [
+    1.0,
+    2.0
+  ],
+  "max_eval": 150,
+  "reverse_axis": true,
+  "out": "results_rev"
+}
